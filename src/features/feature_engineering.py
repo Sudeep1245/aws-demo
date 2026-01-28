@@ -26,7 +26,7 @@ try:
     
     logger.debug(f"Params file loaded successfully.")
     
-    max_features = params['feature_eng']['max_features']
+    max_features = params['feature_engineering']['max_features']
     logger.debug(f"Max feature retrived successfully.")
 
 except FileNotFoundError:
